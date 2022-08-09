@@ -18,6 +18,6 @@ export class CustomComponent implements OnInit {
   prom = new Promise((resolve) => {
     setTimeout(() => {
       resolve('maga');
-    }, 3000);
+    }, 2000);
   });
 }
