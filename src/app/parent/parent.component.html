@@ -1,0 +1,57 @@
+<!-- //////////////// Parent to child///////////////////////////// -->
+
+<!-- <app-child [pdata]="customers"></app-child> -->
+
+<!-- <div class="container">
+  <h2>Parent component</h2>
+  <input type="text" placeholder="Enter" #send (keyup)="(0)" />
+
+  <app-child [pdata]="send.value"></app-child>
+</div> -->
+
+<!-- ////////////child to parent///////////////// -->
+
+<!-- <p>Parent: {{ pdata2 }}</p>
+
+<app-child (childevent)="inparent($event)"></app-child> -->
+<h2>Parent Component</h2>
+<!-- <div style="text-align: center">
+  <h5>Data</h5>
+  <hr />
+
+  <label ngClass="one">ID</label>
+  <input type="text" class="form-control" [ngModel]="id" /> <br />
+  <label ngClass="two">Name</label>
+  <input type="text" class="form-control" [ngModel]="name" />
+  <br />
+  <button class="btn btn-dark" (click)="adduser()">Submit</button>
+  <hr /> -->
+<!-- <div>
+    <table class="table table-bordered">
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+      </tr>
+
+      <tr *ngFor="let data of userdata">
+        <td>{{ data.id }}</td>
+        <td>{{ data.name }}</td>
+      </tr>
+    </table>
+  </div> -->
+<!-- <app-child [users]="userdata">
+    <tr *ngFor="let data of userdata">
+      <td>{{ data.id }}</td>
+      <td>{{ data.name }}</td>
+    </tr>
+  </app-child> -->
+
+<div class="container">
+  <!-- <ul class="list-group">
+    <ng-container *ngFor="let data of person">
+      <li class="list-group-item" *ngIf="data.Id !== 2">
+        Id: {{ data.Id }} | Name: {{ data.Name }}
+      </li>
+    </ng-container>
+  </ul> -->
+</div>

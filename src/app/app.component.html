@@ -1,0 +1,134 @@
+<div class="container text-center">
+  <!-- ////////////student nd faculty table /////////////////////// -->
+
+  <!-- <input type="radio" name="rad" checked (click)="onclick(true)" /> faculty
+  <input type="radio" name="rad" (click)="onclick(false)" /> Student
+
+  <app-faculty *ngIf="res"></app-faculty>
+  <app-student *ngIf="!res"></app-student> -->
+
+  <!-- ///////// ngFOR EXAMPLES///////////// -->
+
+  <!-- <H2>ngFor Examples</H2>
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let data of persons">
+      ID: {{ data.id }} | Fullname: {{ data.name }}
+    </li>
+  </ul>
+  <hr />
+
+  <table class="table table-bordered">
+    <tr>
+      <th>Index</th>
+      <th>ID</th>
+      <th>Name</th>
+    </tr>
+    <tr *ngFor="let data of persons; index as i">
+      <td>{{ i + 1 }}</td>
+      <td>{{ data.id }}</td>
+      <td>{{ data.name }}</td>
+    </tr>
+  </table> -->
+
+  <!-- /////// task for ngfor using dummy  -->
+
+  <!-- <div *ngIf="Dummy.length > 0; else Nodis">
+
+
+
+
+    <table class="table table-bordered">
+      <tr>
+        <th>UserId</th>
+        <th>ID</th>
+        <th>Tittle</th>
+        <th>Body</th>
+      </tr>
+
+      <tr *ngFor="let data of Dummy">
+        <td>{{ data.userId }}</td>
+        <td>{{ data.id }}</td>
+        <td>{{ data.title }}</td>
+        <td>{{ data.body }}</td>
+      </tr>
+    </table>
+  </div>
+  <ng-template #Nodis>
+    <div>nothing to display</div>
+  </ng-template>
+</div> -->
+  <!-- <h2>table</h2>
+  <button class="btn btn-primary" (click)="onclickk()">show</button>
+
+   <ng-template #tab> -->
+  <!-- <table class="table table-bordered">
+    <tr>
+      <th>Index</th>
+      <th>ID</th>
+      <th>Name</th>
+    </tr>
+    <tr *ngFor="let data of persons; index as i">
+      <td>{{ i + 1 }}</td>
+      <td>{{ data.id }}</td>
+      <td>{{ data.name }}</td>
+    </tr>
+  </table> -->
+  <!-- </ng-template> -->
+
+  <!-- ///////////////////// Switch  case////////////////////// -->
+
+  <!-- Enter your item : <input type="text" #namee (keyup)="(0)" />
+
+  <div [ngSwitch]="namee.value">
+    <div *ngSwitchCase="'mo'">mo</div>
+    <div *ngSwitchCase="'mo'">mo</div>
+    <div *ngSwitchCase="'mo'">mo</div>
+    <div *ngSwitchCase="'rao'">rao</div>
+    <div *ngSwitchDefault>sikila guru</div>
+  </div> -->
+
+  <!-- <app-faculty></app-faculty>
+  <app-student></app-student> -->
+
+  <!-- ///////////////////// ng SWITCH CASE EXAMPLE WITH ENUM  -->
+
+  <!-- 
+  <div [ngSwitch]="dir.west">
+    <div *ngSwitchCase="dir.east">1</div>
+    <div *ngSwitchCase="dir.north">2</div>
+    <div *ngSwitchCase="dir.south">3</div>
+    <div *ngSwitchCase="dir.west">4</div>
+  </div> -->
+
+  <!--  Example 3 for ngswitch////////////////////////////////////// -->
+  <!-- <div *ngFor="let id of ids">
+    ID: {{ id }}
+
+    <div ngSwitch="{{ id % 2 }}">
+      <div *ngSwitchCase="0">even</div>
+      <div *ngSwitchCase="1">odd</div>
+    </div>
+  </div>
+
+  <div *ngFor="let id of ids">
+    <div ngSwitch="{{ id % 2 }}">
+      <div *ngSwitchCase="0">Id: {{ id }} - even</div>
+      <div *ngSwitchCase="1">Id: {{ id }} - odd</div>
+    </div>
+  </div> -->
+  <!-- <h1>Data</h1>
+  <br />
+
+  <div *ngFor="let biodata of bio">
+    <div [ngClass]="{ one: biodata.name === 'praveen' }">
+      Name: {{ biodata.name }} | County:{{ biodata.country }}
+    </div>
+  </div> -->
+
+  <!-- <app-parent></app-parent> -->
+  <!-- <app-angular-spl-directive1></app-angular-spl-directive1> -->
+
+  <!-- <app-task-parent1></app-task-parent1> -->
+
+  <app-pipes></app-pipes>
+</div>

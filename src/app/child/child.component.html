@@ -1,0 +1,41 @@
+<div class="container">
+  <!-- ///////child component table//// -->
+
+  <!-- <h1>Child component</h1>
+
+<input type="text" placeholder="Search" class="form-control" />
+<div>
+  <table class="table table-dark">
+    <tr>
+      <th>Name</th>
+      <th>country</th>
+    </tr>
+
+    <tr *ngFor="let data of pdata">
+      <td>{{ data.name }}</td>
+      <td>{{ data.country }}</td>
+    </tr>
+  </table> -->
+
+  <!-- <div>{{ pdata }}</div> -->
+
+  <!-- /////////////////// child to parent //////////////// -->
+
+  <!-- <input type="text" #ccomp (keyup)="inchild(ccomp.value)" /> -->
+
+  <h2>Child Component</h2>
+
+  <!-- <div>
+    <table class="table table-bordered">
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+      </tr>
+
+      <ng-content></ng-content>
+    </table>
+  </div> -->
+
+  <ng-content select="h3"></ng-content>
+  <ng-content select="name"></ng-content>
+</div>
